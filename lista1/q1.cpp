@@ -25,5 +25,6 @@ public:
 int main()
 {  
     vector<int> nums{1, 2, 3, 4, 1};
-    cout << "isDuplicated: " << ContainsDuplicate::containsDuplicate(nums) ? true: false;
+    string result = ContainsDuplicate::containsDuplicate(nums) ? "true": "false";
+    cout << "isDuplicated: " << result;
 }
